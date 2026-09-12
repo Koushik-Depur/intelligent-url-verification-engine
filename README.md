@@ -1,8 +1,8 @@
-# 🛡️ IVE — Intelligent URL Verification Engine
+🛡️ IVE — Intelligent URL Verification Engine
 
 IVE (Intelligent URL Verification Engine) is a machine learning-based web application that analyzes URLs and predicts whether they may be legitimate or potentially phishing.
 
-## 🚀 Features
+🚀 Features
 
 - 🔍 URL analysis
 - 🤖 Machine learning-based prediction
@@ -12,7 +12,7 @@ IVE (Intelligent URL Verification Engine) is a machine learning-based web applic
 - 🐍 Python Flask backend
 - 🔗 Frontend-to-ML API integration
 
-## 🧠 How It Works
+🧠 How It Works
 
 User enters a URL
 
@@ -36,7 +36,7 @@ IVE returns a prediction and risk score
 
 Result is displayed on the website
 
-## 🛠️ Technologies
+🛠️ Technologies
 
 - HTML5
 - CSS3
@@ -49,7 +49,7 @@ Result is displayed on the website
 - Random Forest
 - Joblib
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```text
 IVE/
