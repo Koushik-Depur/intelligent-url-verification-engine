@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IVE - Intelligent URL Verification Engine</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+
+            <div class="logo">
+                🛡️ IVE
+            </div>
+
+            <div class="status">
+                ● AI Security Engine
+            </div>
+
+        </header>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <div class="badge">
+                INTELLIGENT URL VERIFICATION
+            </div>
+
+            <h1>
+                Check Before<br>
+                <span>You Click.</span>
+            </h1>
+
+            <p class="description">
+                Analyze a website URL using machine learning
+                and identify potentially suspicious links.
+            </p>
+
+
+            <!-- URL Input -->
+            <div class="input-section">
+
+                <label for="urlInput">
+                    Enter Website URL
+                </label>
+
+                <div class="input-container">
+
+                    <span class="link-icon">🔗</span>
+
+                    <input
+                        type="text"
+                        id="urlInput"
+                        placeholder="https://example.com"
+                    >
+
+                    <button id="checkButton">
+                        Check URL
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Result -->
+            <div id="result" class="result hidden">
+
+                <div id="resultIcon" class="result-icon">
+                    🛡️
+                </div>
+
+                <h2 id="resultTitle">
+                    Result
+                </h2>
+
+                <p id="resultMessage">
+                    Analysis result will appear here.
+                </p>
+
+                <div class="risk-container">
+
+                    <div class="risk-label">
+                        <span>Risk Score</span>
+                        <span id="riskScore">0%</span>
+                    </div>
+
+                    <div class="risk-bar">
+                        <div id="riskFill"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Information Cards -->
+            <div class="info-cards">
+
+                <div class="info-card">
+                    <div class="card-icon">⚡</div>
+
+                    <h3>Fast Analysis</h3>
+
+                    <p>
+                        Analyze URLs in seconds.
+                    </p>
+                </div>
+
+
+                <div class="info-card">
+                    <div class="card-icon">🤖</div>
+
+                    <h3>ML Powered</h3>
+
+                    <p>
+                        Uses machine learning to detect suspicious patterns.
+                    </p>
+                </div>
+
+
+                <div class="info-card">
+                    <div class="card-icon">🔒</div>
+
+                    <h3>URL Analysis</h3>
+
+                    <p>
+                        Checks URL characteristics without opening the website.
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <p>
+                IVE © 2026 — Intelligent URL Verification Engine
+            </p>
+
+            <p class="disclaimer">
+                Predictions are based on URL characteristics and
+                are not a guarantee of website safety.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
